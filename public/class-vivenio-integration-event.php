@@ -63,7 +63,13 @@ class VivenioIntegrationEvent
                 document.getElementById('vivenio').appendChild(iframe);
 
                 var vivenioIframe = document.getElementById('vivenio-iframe');
-                window.seamless(vivenioIframe);
+                var child = window.seamless(vivenioIframe);
+    
+                child.receive(function(data) {
+                    if (data.scrollToIframe) {
+                        vivenioIframe.scrollIntoView(true);
+                    }
+                });
     
                 if (queryParams.match(/vjump\=true/g)) {
                     vivenioIframe.scrollIntoView(true);

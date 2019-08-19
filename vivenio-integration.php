@@ -15,10 +15,10 @@
  * @wordpress-plugin
  * Plugin Name:       Vivenio Integration
  * Plugin URI:        https://www.vivenio.de
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Adds the vivenio event registration to your wordpress page.
  * Version:           1.0.0
  * Author:            Vivenio Team
- * Author URI:        https://www.vivenio.de
+ * Author URI:        https://www.vivenio.de/de/impressum.html
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       vivenio-integration

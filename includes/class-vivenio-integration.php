@@ -67,8 +67,8 @@ class Vivenio_Integration {
 	 * @since    1.0.0
 	 */
 	public function __construct() {
-		if ( defined( 'PLUGIN_NAME_VERSION' ) ) {
-			$this->version = PLUGIN_NAME_VERSION;
+		if ( defined( 'VIVENIO_INTEGRATION_VERSION' ) ) {
+			$this->version = VIVENIO_INTEGRATION_VERSION;
 		} else {
 			$this->version = '1.0.0';
 		}
